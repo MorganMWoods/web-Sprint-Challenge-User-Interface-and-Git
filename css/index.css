@@ -85,6 +85,8 @@ p {
     padding-bottom: 20px;  
 }
 
+/*============================================*/
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -158,6 +160,8 @@ p {
     padding-right: 0;
 }
 
+/*============================================*/
+
 footer {
     width: 100%;
     background: black;
@@ -174,5 +178,28 @@ footer nav {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+}
+
+/*============================================*/
+
+header {
+    width: 100%;
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
     text-decoration: none;
 }
