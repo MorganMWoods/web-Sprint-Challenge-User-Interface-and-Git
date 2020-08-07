@@ -219,13 +219,12 @@ header nav a {
     justify-content: space-between;
     width: 100%;
     margin: 3% 0%;
-    
+    column-gap: 5px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    column-gap: 30px;
     flex-basis: 100%;
     flex: 1;
     border-bottom: 2px dashed black;
