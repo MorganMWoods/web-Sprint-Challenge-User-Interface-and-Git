@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+        width: 750px;
+        margin: 0 auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +89,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*============================================*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +111,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*============================================*/
+.box:nth-child(1) {
+    background:teal;
+  }
+  .box:nth-child(2) {
+    background:gold;
+  }
+  .box:nth-child(3) {
+    background:cadetblue;
+  }
+  .box:nth-child(4) {
+    background:coral;
+  }
+  .box:nth-child(5) {
+    background:crimson;
+  }
+  .box:nth-child(6) {
+    background:forestgreen;
+  }
+  .box:nth-child(7) {
+    background:darkorchid;
+  }
+  .box:nth-child(8) {
+    background:hotpink;
+  }
+  .box:nth-child(9) {
+    background:indigo;
+  }
+  .box:nth-child(10) {
+    background:dodgerblue;
+  }
+/*============================================*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +164,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*============================================*/
 
 footer {
     width: 100%;
@@ -143,4 +184,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*============================================*/
+
+header {
+    width: 100%;
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/*============================================*/
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3% 0%;
+    column-gap: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border-bottom: 2px dashed black;
+}
+
+/*============================================*/
+
+.button {
+    border:3px solid black;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    width: 40%;
+  }
+
+.margin {
+    margin-top: 5%;
+}
+
+.borderp {
+    border-bottom:2px dashed black;
+    margin: 5% 0;
 }
